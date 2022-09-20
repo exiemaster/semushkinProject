@@ -1,5 +1,5 @@
 <?php
-define ("PAGE TITLE", "Регистрация2");
+define ("PAGE_TITLE", "Регистрация2");
 ?>
 <html>
 <title><?= PAGE_TITLE ?></title>

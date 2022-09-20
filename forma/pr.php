@@ -10,7 +10,7 @@ switch($_GET['Tovar'][0]) {
 		$sum = $_GET['K'] * 10;
 		break;
 }
-if ($_GET['DK'] == "on") {
+if (($_GET['DK'] ?? '') === "on") {
 	$sum=$sum-$sum*0.05;
 	echo "Вы получаете скидку в размере 5 $";
 }
